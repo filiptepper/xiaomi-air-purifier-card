@@ -12,7 +12,7 @@ jobs:
 
       - name: Build
         run: |
-          cd /home/runner/work/purifier-card/purifier-card
+          cd /home/runner/work/xiaomi-air-purifier-card/xiaomi-air-purifier-card
           npm install
           npm run lint
           npm run build
