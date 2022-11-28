@@ -24,7 +24,7 @@ const serverOptions = {
 };
 
 export default {
-  input: 'src/purifier-card.js',
+  input: 'src/xiaomi-air-purifier-card.js',
   output: {
     dir: 'dist',
     format: 'es',

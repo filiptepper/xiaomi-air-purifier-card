@@ -1,8 +1,8 @@
 {
-  "name": "purifier-card",
-  "version": "2.2.3",
-  "description": "Air Purifier card for Home Assistant Lovelace UI",
-  "main": "dist/purifier-card.js",
+  "name": "xiaomi-air-purifier-card",
+  "version": "0.0.1",
+  "description": "Xiaomi Air Purifier card for Home Assistant Lovelace UI",
+  "main": "dist/xiaomi-air-purifier-card.js",
   "scripts": {
     "start": "rollup -c --watch",
     "compile": "rollup -c",
@@ -74,8 +74,8 @@
         {
           "assets": [
             {
-              "path": "dist/purifier-card.js",
-              "label": "purifier-card.js"
+              "path": "dist/xiaomi-air-purifier-card.js",
+              "label": "xiaomi-air-purifier-card.js"
             }
           ]
         }

@@ -257,9 +257,7 @@ class PurifierCard extends LitElement {
         </round-slider>
         <img src=${image} alt="purifier is ${state}" class="image" />
         <div class="slider-center">
-          <div class="slider-content">
-            ${this.renderAQI()}
-          </div>
+          <div class="slider-content">${this.renderAQI()}</div>
           <div class="slider-value">
             ${percentage ? `${percentage}%` : nothing}
           </div>
@@ -419,9 +417,7 @@ class PurifierCard extends LitElement {
       <ha-card>
         <div class="preview">
           <div class="header">
-            <div class="tips">
-              ${this.renderPresetMode()}
-            </div>
+            <div class="tips">${this.renderPresetMode()}</div>
             <ha-icon-button
               class="more-info"
               icon="mdi:dots-vertical"
@@ -444,12 +440,12 @@ class PurifierCard extends LitElement {
   }
 }
 
-customElements.define('purifier-card', PurifierCard);
+customElements.define('xiaomi-air-purifier-card', PurifierCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
   preview: true,
-  type: 'purifier-card',
+  type: 'xiaomi-air-purifier-card',
   name: localize('common.name'),
   description: localize('common.description'),
 });
